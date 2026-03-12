@@ -41,7 +41,7 @@ namespace _4RTools.Forms
                     new MenuItem[] { this.menuItem });
 
             this.menuItem.Index = 0;
-            this.menuItem.Text = "Close";
+            this.menuItem.Text = "ปิด";
             this.menuItem.Click += new EventHandler(this.notifyShutdownApplication);
 
             this.notifyIconTray.ContextMenu = this.contextMenu;
@@ -76,14 +76,14 @@ namespace _4RTools.Forms
 
         private bool toggleStatus()
         {
-            bool isOn = this.btnStatusToggle.Text == "ON";
+            bool isOn = this.btnStatusToggle.Text == "เปิด";
             if (isOn)
             {
                 this.btnStatusToggle.BackColor = Color.Red;
-                this.btnStatusToggle.Text = "OFF";
+                this.btnStatusToggle.Text = "ปิด";
                 this.notifyIconTray.Icon = Resources._4RTools.ETCResource.logo_4rtools_off;
                 this.subject.Notify(new Utils.Message(MessageCode.TURN_OFF, null));
-                this.lblStatusToggle.Text = "Press the key to start!";
+                this.lblStatusToggle.Text = "กรุณาเลือกปุ่มสำหรับกดเริ่ม!";
 
                 if (this.cbAudio.Checked) { new SoundPlayer(Resources._4RTools.ETCResource.Speech_Off).Play(); }
             }

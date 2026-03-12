@@ -59,10 +59,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.panelSwitch = new System.Windows.Forms.Panel();
             this.groupBoxATKxDEFConfig = new System.Windows.Forms.GroupBox();
+            this.inSpammerClick = new System.Windows.Forms.CheckBox();
             this.lblSwitchDelay = new System.Windows.Forms.Label();
             this.switchDelay = new System.Windows.Forms.NumericUpDown();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.inSpammerClick = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -84,9 +84,9 @@
             this.lblDef.AutoSize = true;
             this.lblDef.Location = new System.Drawing.Point(220, 46);
             this.lblDef.Name = "lblDef";
-            this.lblDef.Size = new System.Drawing.Size(63, 13);
+            this.lblDef.Size = new System.Drawing.Size(75, 13);
             this.lblDef.TabIndex = 0;
-            this.lblDef.Text = "DEF Switch";
+            this.lblDef.Text = "อุปกรณ์ป้องกัน";
             // 
             // inDef1
             // 
@@ -181,9 +181,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(391, 46);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 13);
+            this.label1.Size = new System.Drawing.Size(67, 13);
             this.label1.TabIndex = 7;
-            this.label1.Text = "ATK Switch";
+            this.label1.Text = "อุปกรณ์โจมตี";
             // 
             // pictureBox1
             // 
@@ -298,9 +298,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(14, 28);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 13);
+            this.label2.Size = new System.Drawing.Size(51, 13);
             this.label2.TabIndex = 24;
-            this.label2.Text = "Spammer Key";
+            this.label2.Text = "ปุ่มมาโคร";
             // 
             // spammerDelay
             // 
@@ -320,9 +320,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(14, 60);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 13);
+            this.label3.Size = new System.Drawing.Size(62, 13);
             this.label3.TabIndex = 26;
-            this.label3.Text = "Spammer Delay";
+            this.label3.Text = "ดีเลย์มาโคร";
             this.toolTip1.SetToolTip(this.label3, "Delay for Spammer Key");
             // 
             // panelSwitch
@@ -370,16 +370,29 @@
             this.groupBoxATKxDEFConfig.Size = new System.Drawing.Size(191, 151);
             this.groupBoxATKxDEFConfig.TabIndex = 33;
             this.groupBoxATKxDEFConfig.TabStop = false;
-            this.groupBoxATKxDEFConfig.Text = "Configuration";
+            this.groupBoxATKxDEFConfig.Text = "ตั้งค่า";
+            // 
+            // inSpammerClick
+            // 
+            this.inSpammerClick.AutoSize = true;
+            this.inSpammerClick.Checked = true;
+            this.inSpammerClick.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.inSpammerClick.Location = new System.Drawing.Point(17, 120);
+            this.inSpammerClick.Name = "inSpammerClick";
+            this.inSpammerClick.Size = new System.Drawing.Size(88, 17);
+            this.inSpammerClick.TabIndex = 29;
+            this.inSpammerClick.Text = "โดยคลิกเม้าส์";
+            this.inSpammerClick.UseVisualStyleBackColor = true;
+            this.inSpammerClick.CheckedChanged += new System.EventHandler(this.ChkBox_CheckedChanged);
             // 
             // lblSwitchDelay
             // 
             this.lblSwitchDelay.AutoSize = true;
             this.lblSwitchDelay.Location = new System.Drawing.Point(17, 92);
             this.lblSwitchDelay.Name = "lblSwitchDelay";
-            this.lblSwitchDelay.Size = new System.Drawing.Size(69, 13);
+            this.lblSwitchDelay.Size = new System.Drawing.Size(68, 13);
             this.lblSwitchDelay.TabIndex = 28;
-            this.lblSwitchDelay.Text = "Switch Delay";
+            this.lblSwitchDelay.Text = "ดีเลย์สลับของ";
             this.toolTip1.SetToolTip(this.lblSwitchDelay, "Delay between each item change.");
             // 
             // switchDelay
@@ -394,19 +407,6 @@
             this.switchDelay.Size = new System.Drawing.Size(60, 20);
             this.switchDelay.TabIndex = 27;
             this.switchDelay.ValueChanged += new System.EventHandler(this.onDelayChange);
-            // 
-            // inSpammerClick
-            // 
-            this.inSpammerClick.AutoSize = true;
-            this.inSpammerClick.Checked = true;
-            this.inSpammerClick.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.inSpammerClick.Location = new System.Drawing.Point(17, 120);
-            this.inSpammerClick.Name = "inSpammerClick";
-            this.inSpammerClick.Size = new System.Drawing.Size(107, 17);
-            this.inSpammerClick.TabIndex = 29;
-            this.inSpammerClick.Text = "With mouse click";
-            this.inSpammerClick.UseVisualStyleBackColor = true;
-            this.inSpammerClick.CheckedChanged += new System.EventHandler(this.ChkBox_CheckedChanged);
             // 
             // ATKDEFForm
             // 

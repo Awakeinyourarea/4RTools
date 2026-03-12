@@ -43,11 +43,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(78, 9);
+            this.label1.Location = new System.Drawing.Point(79, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(150, 13);
+            this.label1.Size = new System.Drawing.Size(155, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Updating Supported Servers...";
+            this.label1.Text = "กำลังอัพเดตเซิฟเวอร์ที่รองรับ....";
             // 
             // ClientUpdaterForm
             // 

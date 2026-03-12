@@ -368,7 +368,7 @@
             this.btnResMac1.Name = "btnResMac1";
             this.btnResMac1.Size = new System.Drawing.Size(62, 23);
             this.btnResMac1.TabIndex = 210;
-            this.btnResMac1.Text = "Reset";
+            this.btnResMac1.Text = "รีเซ็ต";
             this.btnResMac1.UseVisualStyleBackColor = true;
             // 
             // in6mac1
@@ -448,18 +448,18 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(5, 45);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(34, 13);
+            this.label5.Size = new System.Drawing.Size(32, 13);
             this.label5.TabIndex = 18;
-            this.label5.Text = "Delay";
+            this.label5.Text = "ดีเลย์";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(13, 18);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(25, 13);
+            this.label6.Size = new System.Drawing.Size(21, 13);
             this.label6.TabIndex = 16;
-            this.label6.Text = "Key";
+            this.label6.Text = "ปุ่ม";
             // 
             // panelMacro2
             // 
@@ -655,7 +655,7 @@
             this.btnResMac2.Name = "btnResMac2";
             this.btnResMac2.Size = new System.Drawing.Size(62, 23);
             this.btnResMac2.TabIndex = 209;
-            this.btnResMac2.Text = "Reset";
+            this.btnResMac2.Text = "รีเซ็ต";
             this.btnResMac2.UseVisualStyleBackColor = true;
             // 
             // inInstrumentMacro2
@@ -719,18 +719,18 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(5, 45);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 13);
+            this.label2.Size = new System.Drawing.Size(32, 13);
             this.label2.TabIndex = 18;
-            this.label2.Text = "Delay";
+            this.label2.Text = "ดีเลย์";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(13, 18);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(25, 13);
+            this.label3.Size = new System.Drawing.Size(21, 13);
             this.label3.TabIndex = 16;
-            this.label3.Text = "Key";
+            this.label3.Text = "ปุ่ม";
             // 
             // panelMacro3
             // 
@@ -952,7 +952,7 @@
             this.btnResMac3.Name = "btnResMac3";
             this.btnResMac3.Size = new System.Drawing.Size(62, 23);
             this.btnResMac3.TabIndex = 208;
-            this.btnResMac3.Text = "Reset";
+            this.btnResMac3.Text = "รีเซ็ต";
             this.btnResMac3.UseVisualStyleBackColor = true;
             // 
             // inTriggerMacro3
@@ -990,18 +990,18 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(5, 45);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(34, 13);
+            this.label8.Size = new System.Drawing.Size(32, 13);
             this.label8.TabIndex = 18;
-            this.label8.Text = "Delay";
+            this.label8.Text = "ดีเลย์";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(13, 18);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(25, 13);
+            this.label9.Size = new System.Drawing.Size(21, 13);
             this.label9.TabIndex = 16;
-            this.label9.Text = "Key";
+            this.label9.Text = "ปุ่ม";
             // 
             // panelMacro4
             // 
@@ -1223,7 +1223,7 @@
             this.btnResMac4.Name = "btnResMac4";
             this.btnResMac4.Size = new System.Drawing.Size(62, 23);
             this.btnResMac4.TabIndex = 207;
-            this.btnResMac4.Text = "Reset";
+            this.btnResMac4.Text = "รีเซ็ต";
             this.btnResMac4.UseVisualStyleBackColor = true;
             // 
             // inTriggerMacro4
@@ -1261,18 +1261,18 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(5, 45);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(34, 13);
+            this.label11.Size = new System.Drawing.Size(32, 13);
             this.label11.TabIndex = 18;
-            this.label11.Text = "Delay";
+            this.label11.Text = "ดีเลย์";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(13, 18);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(25, 13);
+            this.label12.Size = new System.Drawing.Size(21, 13);
             this.label12.TabIndex = 16;
-            this.label12.Text = "Key";
+            this.label12.Text = "ปุ่ม";
             // 
             // MacroSongForm
             // 

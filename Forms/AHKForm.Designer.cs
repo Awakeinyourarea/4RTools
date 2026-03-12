@@ -596,7 +596,7 @@ namespace _4RTools.Forms
             this.groupBox2.Size = new System.Drawing.Size(115, 70);
             this.groupBox2.TabIndex = 32;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Spammer Delay";
+            this.groupBox2.Text = "ตั้งค่าดีเลย์";
             // 
             // label1
             // 
@@ -623,7 +623,7 @@ namespace _4RTools.Forms
             this.groupAhkConfig.Size = new System.Drawing.Size(533, 105);
             this.groupAhkConfig.TabIndex = 33;
             this.groupAhkConfig.TabStop = false;
-            this.groupAhkConfig.Text = "AHK Configuration";
+            this.groupAhkConfig.Text = "ตั้งค่ามาโคร";
             // 
             // pictureBox1
             // 
@@ -640,9 +640,9 @@ namespace _4RTools.Forms
             this.chkNoShift.AutoSize = true;
             this.chkNoShift.Location = new System.Drawing.Point(198, 62);
             this.chkNoShift.Name = "chkNoShift";
-            this.chkNoShift.Size = new System.Drawing.Size(64, 17);
+            this.chkNoShift.Size = new System.Drawing.Size(77, 17);
             this.chkNoShift.TabIndex = 39;
-            this.chkNoShift.Text = "No Shift";
+            this.chkNoShift.Text = "ไม่กด Shift";
             this.chkNoShift.UseVisualStyleBackColor = true;
             this.chkNoShift.CheckedChanged += new System.EventHandler(this.chkNoShift_CheckedChanged);
             // 
@@ -661,9 +661,9 @@ namespace _4RTools.Forms
             this.chkMouseFlick.AutoSize = true;
             this.chkMouseFlick.Location = new System.Drawing.Point(198, 38);
             this.chkMouseFlick.Name = "chkMouseFlick";
-            this.chkMouseFlick.Size = new System.Drawing.Size(83, 17);
+            this.chkMouseFlick.Size = new System.Drawing.Size(69, 17);
             this.chkMouseFlick.TabIndex = 38;
-            this.chkMouseFlick.Text = "Mouse Flick";
+            this.chkMouseFlick.Text = "สบัดเม้าส์";
             this.chkMouseFlick.UseVisualStyleBackColor = true;
             this.chkMouseFlick.CheckedChanged += new System.EventHandler(this.chkMouseFlick_CheckedChanged);
             // 
@@ -672,10 +672,10 @@ namespace _4RTools.Forms
             this.ahkSpeedBoost.AutoSize = true;
             this.ahkSpeedBoost.Location = new System.Drawing.Point(17, 58);
             this.ahkSpeedBoost.Name = "ahkSpeedBoost";
-            this.ahkSpeedBoost.Size = new System.Drawing.Size(85, 17);
+            this.ahkSpeedBoost.Size = new System.Drawing.Size(83, 17);
             this.ahkSpeedBoost.TabIndex = 37;
             this.ahkSpeedBoost.TabStop = true;
-            this.ahkSpeedBoost.Text = "Speed boost";
+            this.ahkSpeedBoost.Text = "เร่งความเร็ว";
             this.ahkSpeedBoost.UseVisualStyleBackColor = true;
             this.ahkSpeedBoost.CheckedChanged += new System.EventHandler(this.RadioButton_CheckedChanged);
             // 
@@ -684,10 +684,10 @@ namespace _4RTools.Forms
             this.ahkCompatibility.AutoSize = true;
             this.ahkCompatibility.Location = new System.Drawing.Point(17, 34);
             this.ahkCompatibility.Name = "ahkCompatibility";
-            this.ahkCompatibility.Size = new System.Drawing.Size(83, 17);
+            this.ahkCompatibility.Size = new System.Drawing.Size(45, 17);
             this.ahkCompatibility.TabIndex = 35;
             this.ahkCompatibility.TabStop = true;
-            this.ahkCompatibility.Text = "Compatibility";
+            this.ahkCompatibility.Text = "สมูท";
             this.ahkCompatibility.UseVisualStyleBackColor = true;
             this.ahkCompatibility.CheckedChanged += new System.EventHandler(this.RadioButton_CheckedChanged);
             // 
@@ -698,7 +698,7 @@ namespace _4RTools.Forms
             this.groupBox4.Size = new System.Drawing.Size(115, 70);
             this.groupBox4.TabIndex = 33;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Key Config";
+            this.groupBox4.Text = "ตั้งค่าปุ่ม";
             // 
             // groupBox3
             // 
@@ -710,7 +710,7 @@ namespace _4RTools.Forms
             this.groupBox3.Size = new System.Drawing.Size(122, 100);
             this.groupBox3.TabIndex = 34;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Example";
+            this.groupBox3.Text = "ตัวเลือก";
             // 
             // cbDeactivated
             // 
@@ -718,9 +718,9 @@ namespace _4RTools.Forms
             this.cbDeactivated.AutoSize = true;
             this.cbDeactivated.Location = new System.Drawing.Point(10, 70);
             this.cbDeactivated.Name = "cbDeactivated";
-            this.cbDeactivated.Size = new System.Drawing.Size(84, 17);
+            this.cbDeactivated.Size = new System.Drawing.Size(82, 17);
             this.cbDeactivated.TabIndex = 2;
-            this.cbDeactivated.Text = "Deactivated";
+            this.cbDeactivated.Text = "ไม่ทำการใด";
             this.cbDeactivated.UseVisualStyleBackColor = true;
             // 
             // cbWithNoClick
@@ -728,9 +728,9 @@ namespace _4RTools.Forms
             this.cbWithNoClick.AutoSize = true;
             this.cbWithNoClick.Location = new System.Drawing.Point(10, 46);
             this.cbWithNoClick.Name = "cbWithNoClick";
-            this.cbWithNoClick.Size = new System.Drawing.Size(99, 17);
+            this.cbWithNoClick.Size = new System.Drawing.Size(59, 17);
             this.cbWithNoClick.TabIndex = 1;
-            this.cbWithNoClick.Text = "No mouse click";
+            this.cbWithNoClick.Text = "ไม่คลิก";
             this.cbWithNoClick.UseVisualStyleBackColor = true;
             // 
             // cbWithClick
@@ -740,9 +740,9 @@ namespace _4RTools.Forms
             this.cbWithClick.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbWithClick.Location = new System.Drawing.Point(10, 22);
             this.cbWithClick.Name = "cbWithClick";
-            this.cbWithClick.Size = new System.Drawing.Size(107, 17);
+            this.cbWithClick.Size = new System.Drawing.Size(69, 17);
             this.cbWithClick.TabIndex = 0;
-            this.cbWithClick.Text = "With mouse click";
+            this.cbWithClick.Text = "เม้าส์คลิก";
             this.cbWithClick.UseVisualStyleBackColor = true;
             // 
             // AHKForm

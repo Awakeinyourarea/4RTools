@@ -150,7 +150,7 @@
             this.groupBox1.Size = new System.Drawing.Size(345, 163);
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Server Properties";
+            this.groupBox1.Text = "ตั้งค่าเซิฟเวอร์";
             // 
             // btnSave
             // 
@@ -158,25 +158,25 @@
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(83, 39);
             this.btnSave.TabIndex = 22;
-            this.btnSave.Text = "Save";
+            this.btnSave.Text = "บันทึก";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(8, 95);
+            this.label5.Location = new System.Drawing.Point(6, 95);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(79, 13);
+            this.label5.Size = new System.Drawing.Size(90, 13);
             this.label5.TabIndex = 21;
-            this.label5.Text = "Process Name:";
+            this.label5.Text = "เลือกหน้าต่างเกม:";
             // 
             // processCB
             // 
             this.processCB.FormattingEnabled = true;
-            this.processCB.Location = new System.Drawing.Point(90, 91);
+            this.processCB.Location = new System.Drawing.Point(102, 91);
             this.processCB.Name = "processCB";
-            this.processCB.Size = new System.Drawing.Size(241, 21);
+            this.processCB.Size = new System.Drawing.Size(229, 21);
             this.processCB.TabIndex = 20;
             // 
             // label3

@@ -62,20 +62,19 @@ namespace _4RTools.Forms
             this.btnStatusToggle.Name = "btnStatusToggle";
             this.btnStatusToggle.Size = new System.Drawing.Size(73, 28);
             this.btnStatusToggle.TabIndex = 21;
-            this.btnStatusToggle.Text = "OFF";
+            this.btnStatusToggle.Text = "ปิด";
             this.btnStatusToggle.UseVisualStyleBackColor = false;
             this.btnStatusToggle.Click += new System.EventHandler(this.btnToggleStatusHandler);
             // 
             // lblStatusToggle
             // 
             this.lblStatusToggle.AllowDrop = true;
-            this.lblStatusToggle.AutoSize = true;
-            this.lblStatusToggle.Location = new System.Drawing.Point(57, 80);
-            this.lblStatusToggle.MaximumSize = new System.Drawing.Size(109, 30);
+            this.lblStatusToggle.Location = new System.Drawing.Point(31, 77);
+            this.lblStatusToggle.MaximumSize = new System.Drawing.Size(150, 40);
             this.lblStatusToggle.Name = "lblStatusToggle";
-            this.lblStatusToggle.Size = new System.Drawing.Size(109, 13);
+            this.lblStatusToggle.Size = new System.Drawing.Size(150, 29);
             this.lblStatusToggle.TabIndex = 22;
-            this.lblStatusToggle.Text = "Press the key to start!";
+            this.lblStatusToggle.Text = "กรุณาตั้งปุ่มสำหรับกดเริ่ม!";
             this.lblStatusToggle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // notifyIconTray
@@ -96,7 +95,7 @@ namespace _4RTools.Forms
             this.groupBox1.Size = new System.Drawing.Size(222, 110);
             this.groupBox1.TabIndex = 24;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "ON / OFF";
+            this.groupBox1.Text = "เปิด/ปิด";
             // 
             // cbAudio
             // 
@@ -105,9 +104,9 @@ namespace _4RTools.Forms
             this.cbAudio.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbAudio.Location = new System.Drawing.Point(156, 23);
             this.cbAudio.Name = "cbAudio";
-            this.cbAudio.Size = new System.Drawing.Size(57, 17);
+            this.cbAudio.Size = new System.Drawing.Size(49, 17);
             this.cbAudio.TabIndex = 24;
-            this.cbAudio.Text = "Sound";
+            this.cbAudio.Text = "เสียง";
             this.cbAudio.UseVisualStyleBackColor = true;
             // 
             // ToggleApplicationStateForm
